@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&family=Montserrat:wght@300;700;900&family=Poppins:wght@300;400;500;600;700&family=Sarpanch:wght@400;500;600;700&family=Ubuntu:wght@300;400&family=Work+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+
+:root{
+  --blue: #061f4a;
+}
+.App{
+  margin: 0;
+  align-items: center;
+  /* background: var(--blue); */
+  background-image:url('./img/background.jpg');
+  color: azure;
+  padding: 50px;
+  font-family: Sarpanch;
+}
+
+@media screen and (max-width: 768px){
+  .App{
+    padding: 0;
+    /* width: 100%;
+    height: 100%; */
+  }
+}
